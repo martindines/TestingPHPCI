@@ -1,3 +1,9 @@
 setup:
   composer:
     action: "install"
+
+success:
+  package_build:
+    directory: "/tmp/builds/"
+    filename: "martindines_testingphpci"
+    format: tar
